@@ -1,0 +1,129 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristian
+    last_name: Muñoz
+    
+    # Focus
+    focus: Programación, Tecnología, Ilustración, Videojuegos, Música
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me defino como alguien que sabe escuchar a las personas, leal, respetuoso, detallista,
+      conciliador y responsable. Aficionado al mundo de la tecnología, los videojuegos y
+      el desarrollo web. En lo que respecta web me gusta mucho el desarrollo desde el lado
+      del frontend usando HTML, CSS, JavaScript y React principalmente.
+
+      Actualmente estoy incursionando en la carrera de Full-stack Software Developer para 
+      profundizar lo que ya sabía, adquirir nuevos conocimientos y poder desempeñarme de 
+      manera profesional.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-scl2-1.cdninstagram.com/v/t51.2885-19/324853565_503552025236824_6471507941124882070_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-scl2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=drHvbA-MqIoAX-YWUg4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfA2Qr8GNdOhUVxENVIqhpsh8-sT-F6QM7YYaNvvpeUrxw&oe=65EF9DA0&_nc_sid=8b3546
+
+    # Contact Information
+    email: cr.munoz20@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/cristian-munoz-delgado/ #optional
+    github: CristMunoz
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Básico
+
+    # Interests or hobbies
+    interests:
+      - item: Ilustración
+
+      - item: Videojuegos
+
+      - item: Música
+
+# Your previous education
+education:
+    - degree: Diseñador Gráfico
+      university: DUOC UC
+      # optional
+      time: 2010 - 2017
+      
+    - degree: Enseñanza Media
+      university: Colegio San Agustín - El Bosque
+      # optional
+      time: 2004 - 2007
+
+    - degree: Enseñanza Básica
+      university: Colegio María Medianera
+      # optional
+      time: 1996 - 2003
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Diseñador Gráfico
+      time: 2014 - 2015
+      company: Officenter Depot
+      # optional
+      details: |
+        Creación y diseño de:
+
+          - Branding Corporativo
+          - Marcas
+          - Tarjetas de presentación
+          - Pendones
+          - Folletos
+          - Flyers
+          - Calendarios
+          - Etc.
+
+    - role: Operador de Pre-prensa
+      time: 2013
+      company: Tirajes Publival
+      # optional
+      details: |
+        Revisión y arreglo de archivos para impresión en CTP.
+
+# Your project portfolio
+projects:
+    intro: >
+      Algunos de mis proyectos que he realizado como desarrollador.
+
+    assignments:
+      - title: Mamma Mia
+        # optional
+        link: https://github.com/CristMunoz/d4-m5-pizza-mamma-mia
+        tagline: "Proyecto de carrito de compra de una pizzeria realizado con HTML, CSS, JavaScript, Bootstrap y React."
+
+      - title: Tía Tomate
+        # optional
+        link: https://github.com/CristMunoz/d4-m2-tia-tomate
+        tagline: "Proyecto realizado con SASS."
+
+      - title: Electric Car Store
+        # optional
+        link: https://github.com/CristMunoz/d3-m2-electric-car-store
+        tagline: "Proyecto de sitio web responsivo realizado en HTML y CSS."
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: 45%
+
+      - name: React
+        level: 55%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Illustrator & Photoshop
+        level: 70%
